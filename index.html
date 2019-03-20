@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="content">
+            <h1>SMN</h1>
+
+            <div class="inside">
+
+                <div>
+
+                    <select>
+                        <option value="1">Quarta, 20</option>
+                        <option value="1">Quinta, 21</option>
+                        <option value="1">Sexta, 22</option>
+                    </select>
+
+                    <h2>Confirme seu almoço</h2>
+
+                    <div class="subheader">
+                        <div>
+                            <h3>Prato do dia</h3>
+                            <h4>Lombo Assado</h4>
+                        </div>
+                        <i class="material-icons" onclick="dialog(event)">
+                            autorenew
+                        </i>
+
+                        <div class="dialog">
+                            <input type="radio" name="omelete" /> <span>Omelette</span>
+                            <input type="radio" name="omelete" /> <span>Frango</span> 
+                        </div>
+                    </div>
+
+                    <button>MOSTRAR CARDAPIO</button>
+
+                </div>
+
+                <footer>
+
+                    <div class="flex">
+                        <div class="checkbox" for="checkbox" onclick="check(this)">
+                            <i class="material-icons">done</i>
+                        </div>
+
+                        <span>Não vou almoçar aqui hoje</span>
+
+                        <button>CONFIRMAR</button>
+                    </div>
+
+
+                </footer>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
